@@ -13,3 +13,11 @@ submission = pd.read_csv("SampleSubmission.csv")
 train.columns
 
 train.head()
+
+test.head()
+
+train['datetime'] = pd.to_datetime(train['datetime'])
+test['datetime'] = pd.to_datetime(test['datetime'])
+
+print(train.shape)
+print(test.shape)
