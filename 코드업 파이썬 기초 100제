@@ -1,3 +1,11 @@
 ## ", '출력
 print("\"!@#$%^&*()'")
 
+## \ 출력
+print("\"C:\\Download\\'hello'.py\"")
+
+## \n 출력 <-- (원래 print문 안에서 줄바꿈 코드)
+print("print(\"Hello\\nWorld\")")
+
+c = input()
+print(c)
