@@ -9,3 +9,6 @@ print("print(\"Hello\\nWorld\")")
 
 c = input()
 print(c)
+
+n = int(input())
+print(n)
