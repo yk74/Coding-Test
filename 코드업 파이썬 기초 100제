@@ -34,3 +34,6 @@ print(a)
 a,b = input().split()
 print(a)
 print(b)
+
+a,b = input().split()
+print(b,a)
