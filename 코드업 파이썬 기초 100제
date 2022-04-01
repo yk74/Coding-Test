@@ -20,3 +20,8 @@ a = input()
 b = input()
 print(a)
 print(b)
+
+a = input()
+b = input()
+print(b)
+print(a)
