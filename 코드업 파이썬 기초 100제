@@ -15,3 +15,8 @@ print(n)
 
 n = float(input())
 print(n)
+
+a = input()
+b = input()
+print(a)
+print(b)
