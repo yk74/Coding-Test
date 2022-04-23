@@ -16,3 +16,15 @@ def solution(n, lost, reserve):
             answer += 1
             reserve.remove(i+1)
     return answer
+
+
+def solution(number, k):
+    L = list(number)
+    i = 0
+    while i < k:
+        max_val = max(L[:-k+i+1])
+        max_idx = L.index(max_val)
+        del L[:max_idx]
+        i += max_idx
+        
+    return ''.join(L)
