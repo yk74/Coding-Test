@@ -26,6 +26,5 @@ def solution(number, k):
         max_val = max(L[:-k+i+1])
         max_idx = L.index(max_val)
         del L[:max_idx]
-        i += max_idx
-        
+        i += max_idx        
     return ''.join(L)
