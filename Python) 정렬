@@ -1,8 +1,22 @@
 ##1. K번째 수
-
 def solution(array, commands):
     answer = []
     for i,j,k in commands:
         a = sorted(array[i-1:j])[k-1]
         answer.append(a)
+    return answer
+
+
+##2. 가장 큰 수
+from itertools import permutations
+
+def solution(numbers):
+    answer = ''
+    result = []
+    a = list(permutations(numbers, len(numbers)))
+    for i in a:  
+        b = list(map(str, i))
+        c = "".join(b)
+        result.append(c)
+    answer = str(max(list(map(int, result))))     
     return answer
