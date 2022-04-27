@@ -19,6 +19,7 @@ def solution(n, lost, reserve):
 
 
 ##2. 큰 수 만들기
+
 def solution(number, k):
     L = list(number)
     i = 0
