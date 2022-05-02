@@ -20,11 +20,6 @@ b[x]        b[]
 
 
 
-
-    # if 앞 번호 끝나는 시간보다 클 때 실행
-    return A
-
-
 def solution(people, tshirts):
     answer = 0
     for i in range(len(tshirts)):
