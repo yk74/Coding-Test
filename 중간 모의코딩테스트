@@ -19,7 +19,7 @@ def solution(booked, unbooked):
             return answer
 
 
-
+##2.
 def solution(people, tshirts):
     answer = 0
     for i in range(len(tshirts)):
