@@ -9,7 +9,7 @@ def solution(booked, unbooked):
     # B = dict.fromkeys(unbooked[:,1], unbooked[:,0])
     # for i in len(a):
         if min(a[0],b[0])+10 >= a[1]:
-b[x]        b[]
+            b[]
         for x in len(b):
             if b[x] 
             # if a[x]+10 < a[x+1] and a[x+1] > b[y]:
