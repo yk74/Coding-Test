@@ -1,4 +1,5 @@
 ##1.
+
 def solution(booked, unbooked):
     answer = []
     a = [int(i[0].replace(":","")) for i in booked]
@@ -19,7 +20,9 @@ def solution(booked, unbooked):
             return answer
 
 
+
 ##2.
+
 def solution(people, tshirts):
     answer = 0
     for i in range(len(tshirts)):
