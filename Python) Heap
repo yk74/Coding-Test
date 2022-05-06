@@ -11,6 +11,7 @@ def solution(scoville, K):
         answer += 1
     if sorted(scoville)[0] >= K:
         return answer
+        
     else:
         answer = -1
         return answer
