@@ -10,8 +10,7 @@ def solution(scoville, K):
         heappush(scoville, s1+2*s2)
         answer += 1
     if sorted(scoville)[0] >= K:
-        return answer
-        
+        return answer        
     else:
         answer = -1
         return answer
