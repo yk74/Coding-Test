@@ -1,5 +1,4 @@
 ##1. 더 맵게
-
 from heapq import *
 def solution(scoville, K):
     answer = 0
