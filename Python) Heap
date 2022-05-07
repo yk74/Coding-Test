@@ -14,3 +14,18 @@ def solution(scoville, K):
     else:
         answer = -1
         return answer
+        
+        
+        
+풀이과정2       
+def solution(scoville, K):
+    answer = 0
+    while (scoville[0] < K):
+        x = scoville[0] + 2*scoville[1]
+        del scoville[0]
+        scoville[0] = x
+        scoville.sort()
+        answer += 1           
+    if scoville[0] < K:
+        answer = -1   
+    return answer
