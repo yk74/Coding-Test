@@ -1,5 +1,6 @@
 ##1. 체육복
 
+
 def solution(n, lost, reserve):
     answer = n - len(lost)
     lost.sort()
