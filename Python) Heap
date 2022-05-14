@@ -14,7 +14,8 @@ def solution(scoville, K):
     else:
         answer = -1
         return answer
-                
+   
+   
         
 풀이과정2       
 def solution(scoville, K):
