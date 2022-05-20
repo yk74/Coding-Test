@@ -18,6 +18,7 @@ def solution(booked, unbooked):
             answer.append(a[0])
             return answer
 
+
 ##2.
 def solution(people, tshirts):
     answer = 0
