@@ -1,5 +1,4 @@
 ##1.
-
 def solution(booked, unbooked):
     answer = []
     a = [int(i[0].replace(":","")) for i in booked]
