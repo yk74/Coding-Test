@@ -20,5 +20,4 @@ def solution(tickets):
             stack.append(lst[tmp].pop())
     answer.reverse()
 
-
     return answer
